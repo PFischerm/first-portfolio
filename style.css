@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    background-color: #EDEDED;
+    color: #464646;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+#top {
+    margin: 0px 152px;
+    padding-top: 32px;
+}
+
+header li {
+    font-size: 16px;
+    font-weight: normal;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__logo p {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Main - INTRO */
+
+main {
+    margin: 0px 152px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 32px;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.main__intro {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.main__social {
+    display: flex;
+    gap: 32px;
+
+    list-style: none;
+}
+
+.main__social__links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.main__social__links a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Main - SOBRE MIM */
+fieldset {
+    border: none;
+}
+
+.fieldset {
+    border-bottom: 2px solid #464646;
+    padding-bottom: 16px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    margin-bottom: 16px;
+}
+
+legend {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sobre__p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Main - SKILLS E HOBBIES */
+
+.snh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.snh__list {
+    display: flex;
+    gap: 16px;
+}
+
+.snh__field {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+
+    width: 176px;
+    height: 176px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.snh__logo {
+    background-color: #FFFFFF;
+    width: 28px;
+    height: 37px;
+    color: #2A7AE4;
+}
+
+.snh__name {
+    background-color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#skills__hobbies > div:nth-child(2) {
+    margin-top: 88px;
+}
+
+/* Main - FORMAÇÃO */
+
+.formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    margin-top: 82px;
+}
+
+.formation__list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.formation__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formation__box {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+
+    padding: 78px 89px;
+}
+
+.formation__img {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+/* Main - PROJETOS */
+#projects {
+    margin-top: 88px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.projetos__demo {
+    display: flex;
+    gap: 16px;
+}
+
+.projetos__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+button {
+    width: 116px;
+    height: 51px;
+
+    border: 2px solid #2A7AE4;
+    background-color: #2A7AE4;
+}
+
+.button {
+    background: none;
+}
+
+.button a {
+    background: none;
+    color: #2A7AE4;
+}
+
+button a {
+    text-decoration: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+/* Main - CONTATO */
+
+#contact {
+    display: flex;
+    padding-top: 36px;
+    gap: 16px;
+
+    margin-bottom: 64px;
+}
+
+.contato {
+    margin-bottom: 32px;
+}
+
+.form div {
+    margin-bottom: 32px;
+}
+
+.form__field, .form__msg {
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px;
+
+    width: 656px;
+    height: 56px;
+}
+
+.form__msg {
+    height: 133px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: normal;
+    color: #A2A2A2;
+    background-color: #FFFFFF;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+
+    width: 650px;
+    height: 50px;
+}
+
+input:focus {
+    
+    border-bottom: 1px solid #2A7AE4;
+}
+
+/* Footer */
+
+footer {
+    background-color: #FFFFFF;
+
+    padding: 32px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    background-color: #FFFFFF;
+}
